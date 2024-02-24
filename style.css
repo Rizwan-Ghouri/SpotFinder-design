@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headcontiner{
+    border-bottom: 1px solid rgb(163, 163, 163);
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    font-family:  sans-serif;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+}
+.headLogo{
+    width: 25%;
+}
+.logo{
+    height: 70%;
+    margin: 5%;
+    margin-top: 3%;
+    margin-left: 15%;
+    padding: 10px;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+.headlink{
+    /* border: 1px solid red; */
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+.hlink{
+    height: 34%;
+    padding-top: 15px;
+    margin: 20px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #504d4d;
+    /* border: 2px solid #000000; */
+}
+.hlink:hover,.hlink:focus{
+    color: #ce0505c5;
+    font-weight: 600;
+}
+
+.headbtn{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+}
+
+.btnlink{
+    height: 39%;
+    padding-top: 15px;
+    margin: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #504d4d;
+    /* border: 2px solid #000000; */
+}
+.log:hover{
+    color: #ce0505c5;
+    font-weight: 600;
+}
+.Regist{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #ce0505c5;
+    margin-top: 7%;
+    padding: 1% 15px  0% 15px;
+    margin-right: 45px;
+    border-radius: 50px;
+}
+.continer{
+    width: 85%;
+    margin: 5%; 
+    margin-top:10%;
+    padding: 3%;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: #f4fdfa;
+    /* border: 2px solid #e93600; */
+    display:flex;  
+}
+.con-img{
+    width: 50%;
+    height: 150%;
+    /* border: 2px solid #e93600; */
+    padding: 2%;
+
+}
+.Cimg{
+    width: 100%;
+    height: 100%;
+    padding-top: 7%;
+}
+.con-Form{
+    /* border: 2px solid #e93600; */
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.conheading{
+    font-size: 3.5em;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+}
+.sec-color{
+    color: #ce0505c5;
+}
+.conpara{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:normal;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+.form{
+    width: 93%;
+    height: 80%;
+    padding: 1%;
+    margin-top: 3%;
+    display: flex;
+    border: 2px solid red;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.Fimg{
+    width: 50px;
+    padding-top: 2%;
+    flex-direction: row;
+    /* border: 1px solid red; */
+}
+.Fimg1{
+    width: 110%;
+    flex-direction: row;
+}
+.Ftext{
+    width: 100%;
+    padding: 3%;
+    /* border: 1px solid red; */
+}
+input[type="text"]{
+    width: 100%;
+    font-size: larger;
+    padding-left: 1%;
+    border: none;
+    outline: none;
+}
+.dropdown{
+    width: 100%;
+    font-size: larger;
+    padding-left: 1%;
+    border: none;
+    outline: none;
+
+}
+.fdat{
+    width: 45%;
+    height: 50px;
+    display: flex;
+    border: 2px solid red;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin: 4% 5% 0% 0%;
+}
+.dtime{
+    width: 100%;
+    font-size: 130%;
+    /* padding-left: 1%; */
+    /* padding: 4%; */
+    border: none;
+    outline: none;
+} 
+.Ftdat{
+    width: 60%;
+    padding: 6%;
+}
+.Fimg2{
+    width: 70%;
+    padding-top: 6%;
+    /* padding-left: 6%; */
+    flex-direction: row;
+}
+.date{
+    display: flex;
+}
+/* .subcontiner{
+    border: 1px solid red;
+} */
+
+input[type="button"]{
+    width: 60%;
+    color: #ffffff;
+    background-color: #ce0505c5;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    margin-top: 7%;
+    border-radius: 50px;
+}
+input[type="button"]:hover,.btn1:hover{
+    background-color: #fa0303c5;
+}
+/*Card Coad*/
+.Card{
+    /* border: 1px solid #000; */
+    margin: 2%; 
+    width: 95%;
+    height: 100%;
+    text-align: center;
+}
+.Cardhead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4em;
+}
+.Cardpara{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    margin-bottom: 2%;
+    color: rgb(150, 148, 148);
+}
+.Chead{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 15%;
+   
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.box{
+    width: 30%;
+    height: 30%;
+    border: 1px solid #8f8e8e;
+    background-color: #fff;
+    display: inline-block;
+    text-align: justify;
+    border-radius: 10px;
+    margin-left: 35px;
+
+}
+.box1{
+    padding: 15px;
+}
+.btn1{
+    position: relative;
+    left: 28%;
+    /* margin-left: 27%; */
+    background-color: #ce0505de;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: medium;
+    margin-bottom: 12px;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+
+
+
+
