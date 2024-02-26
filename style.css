@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+/* <!-- Header & Nav Open --> */
+
 .headcontiner{
     border-bottom: 1px solid rgb(163, 163, 163);
     background-color: #ffffff;
@@ -12,6 +14,7 @@
     flex-direction: row;
     position: fixed;
     top: 0px;
+    z-index: 3;
 }
 .headLogo{
     width: 25%;
@@ -74,6 +77,10 @@
     margin-right: 45px;
     border-radius: 50px;
 }
+
+/* <!-- Header & Nav Close --> */
+
+/* <!-- continer Open --> */
 .continer{
     width: 85%;
     margin: 5%; 
@@ -196,7 +203,7 @@ input[type="text"]{
 input[type="button"]{
     width: 60%;
     color: #ffffff;
-    background-color: #ce0505c5;
+    background-color: #ce0505de;
     font-size: large;
     font-weight: bold;
     border: none;
@@ -204,10 +211,12 @@ input[type="button"]{
     margin-top: 7%;
     border-radius: 50px;
 }
-input[type="button"]:hover,.btn1:hover{
+input[type="button"]:hover,.btn1:hover,.Airbtn1:hover,.Partnerbtn1:hover{
     background-color: #fa0303c5;
 }
-/*Card Coad*/
+/* <!-- continer Close --> */
+
+/* <!-- Card Open --> */
 .Card{
     /* border: 1px solid #000; */
     margin: 2%; 
@@ -235,16 +244,19 @@ input[type="button"]:hover,.btn1:hover{
     width: 100%;
     height: 100%;
     box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
 }
 .box{
     width: 30%;
     height: 30%;
-    border: 1px solid #8f8e8e;
+    border: 1px solid #cacaca;
     background-color: #fff;
     display: inline-block;
     text-align: justify;
     border-radius: 10px;
-    margin-left: 35px;
+    margin-left: 30px;
 
 }
 .box1{
@@ -253,7 +265,6 @@ input[type="button"]:hover,.btn1:hover{
 .btn1{
     position: relative;
     left: 28%;
-    /* margin-left: 27%; */
     background-color: #ce0505de;
     border-radius: 10px;
     padding: 5px;
@@ -264,8 +275,235 @@ input[type="button"]:hover,.btn1:hover{
     padding: 15px 30px;
     border-radius: 50px;
 }
+/* <!-- Card Close --> */
 
+/* <!-- SpotCard Open --> */
+.spotCard{
+    /* border: 1px solid #000; */
+    background-color: #e23744;
+    margin: 3%; 
+    padding: 3%; 
+    width: 88%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
 
+}
+.spotCardhead{
+    color:  #fff;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.5em;
+    padding-top: 3%;
+}
+.spotCardpara{
+    color:  #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2% 15% 0% 15%;
+    text-align: center;
+    font-size: 1.6pc;
+    margin-bottom: 2%;
+}
+.spotbox{
+    width: 30%;
+    height: 30%;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 35px;
+}
+.spothead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    padding-bottom: 7%;
+}
+.spotpara{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    padding-bottom: 7%;
+}
+.spotimg1{
+    margin-top: 12%;
+    width: 35%;
+    height: 100%;
+    margin-bottom: 5%;
 
+}
+.fastimg{
+    margin-top: 8%;
+    width: 39%;
+    margin-bottom: 5%;
 
+}
+/* <!-- SpotCard Close --> */
 
+/* <!-- AirCard Open --> */
+
+.AirCard{
+    /* border: 1px solid #000; */
+    margin: 2%; 
+    width: 95%;
+    height: 100%;
+    text-align: center;
+}
+.Airhead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4em;
+}
+/* .Cardpara{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    margin-bottom: 2%;
+    color: rgb(150, 148, 148);
+} */
+.CAirhead{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15%;
+   
+}
+.Airimg1{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.img2{
+    width: 100%;
+    height: 150%;
+}
+.Airbox{
+    width: 20%;
+    height: 30%;
+    border: 1px solid #cacaca;
+    background-color: #fff;
+    display: inline-block;
+    text-align: justify;
+    border-radius: 10px;
+    margin-left: 55px;
+
+}
+.Airbox1{
+    padding: 15px;
+}
+.Airbtn1{
+    position: relative;
+    left: 22%;
+    background-color: #ce0505de;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: medium;
+    margin-bottom: 12px;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+/* <!-- AirCard Close --> */
+
+/* <!-- InterestingCard Open --> */
+.InterCard{
+    /* border: 1px solid #000; */
+    margin: 2%; 
+    width: 95%;
+    height: 100%;
+    /* text-align: center; */
+
+}
+.InterCardhead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4em;
+    font-weight: 400;
+    text-align: center;
+}
+.InterCardpara{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    margin-bottom: 1%;
+    padding-left: 3%;
+    color: #000;
+}
+.CInterhead{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 15%;
+   
+}
+.Interimg1{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.Interbox{
+    width: 30%;
+    height: 30%;
+    border: 1px solid #cacaca;
+    background-color: #fff;
+    display: inline-block;
+    text-align: justify;
+    border-radius: 10px;
+    margin-left: 30px;
+
+}
+.Interbox1{
+    padding: 15px;
+}
+.Interbtn1{
+    position: relative;
+    background-color: #fff;
+    color: #e23744;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: medium;
+    margin-bottom: 12px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+/* <!-- InterestingCard Close --> */
+
+.PartnerCard{
+    /* border: 1px solid #000; */
+    margin: 5%; 
+    width: 90%;
+    height: 570px;
+    background-image: url(img/par.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.Partnerhead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10%;
+    font-size: 500%;
+    line-height: 120px;
+    color: #ff3737;
+    text-align: center;
+}
+.Partnerhead1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ff3737;
+    font-size: 200%;
+    text-align: center;
+}
+.Partnerbtn1{
+    position: relative;
+    left: 40%;
+    background-color: #ff3737;
+    margin-top: 5%;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 50px;
+}
